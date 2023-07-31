@@ -117,6 +117,18 @@ the different breakpoints.
 />
 ```
 
+## Gradients with background image
+
+```jsx
+<Box
+// this notation is interchangeable with `bgImage`
+bgGradient={"linear(colors.brand.secondary.900,rgba(255,255,255,.6)), url('https://picsum.photos/600/200')"}
+// you can also stack with a color and blend mode to give some uniformity to the image (especially if behind text)
+blendMode={'screen'}
+bgColor={red}
+/>
+```
+
 ## Changing gradient with pseudo props
 
 You can change the gradient of an element based on common CSS pseudo attributes
